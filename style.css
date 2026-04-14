@@ -1,0 +1,28 @@
+.w{
+    color: aliceblue;
+    
+}
+.b{
+    background-color: black;
+}
+.s{
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+    color: #daffa5;
+
+}
+.dev{
+text-align: center;
+    /*display:flex;*/
+/*justify-content: space-between;*/
+}
+.bg{
+    background-color: #606a79;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.mar{
+    margin-left: 50px;
+    margin-right: 50px;
+}
