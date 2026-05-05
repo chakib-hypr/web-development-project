@@ -6,6 +6,9 @@ body {
     color: white;
 }
 .top-bar{
+    position: fixed;
+    top:0;
+    left: 0;
     width: 100%;
     background-color: rgb(17, 17, 17);
     height: 50px;
@@ -20,7 +23,7 @@ border-bottom: 2px solid rgb(0, 0, 0);
 border-left: 2px solid rgb(0, 0, 0);
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: 600px;
     margin-right: 600px;
     background-color: white;
@@ -54,4 +57,19 @@ display: flex;
     width: 200px;
     height: 60px;
    
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
 }
