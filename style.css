@@ -104,6 +104,7 @@ border-radius: 40px;
     max-width: 450px;
     padding: 30px;
     border-radius: 10px;
+    display: none;
 
 }
 .mid
@@ -123,11 +124,27 @@ border-radius: 40px;
     
     margin-bottom: 20px;
 }
-input{
+input,select{
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
+}
+.login{
+    background-color: rgb(96, 93, 253);
+    color: white;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+.form-box.active{
+    display: block;
 }

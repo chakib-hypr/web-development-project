@@ -18,16 +18,32 @@
     </div>
     </header>
 <div class="container">
-    <div class="form-box" id="login-form">
+    <div class="form-box active" id="login-form">
         <form action="">
-            
                 <h2 class="h">Login</h2>
-            
-            
             <input type="text" name="username" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>
-            <button type="submit"><b>Login</b></button>
-            <p class="message">Don't have an account? <a href="#">Register</a></p>
+            <button type="submit" class="login"><b>Login</b></button>
+            <p>Don't have an account? <a href="#" onclick="showForms('register-form')">Register</a></p>
+        </form>
+
+    </div>
+    
+</div>
+<div class="container">
+    <div class="form-box" id="register-form">
+        <form action="">
+                <h2 class="h">Register</h2>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <select name="role" required>
+                <option value="">Select Role</option>
+                <option value="player">user</option>
+                <option value="admin">Admin</option>
+            </select>
+            <button type="submit" class="login"><b>Register</b></button>
+            <p>Already have an account? <a href="#" onclick="showForms('login-form')">Login</a></p>
+            
         </form>
 
     </div>
@@ -36,6 +52,6 @@
 
 
 
-
+<script src="index.js"></script>
 </body>
 </html>
